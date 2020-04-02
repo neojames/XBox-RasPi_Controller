@@ -41,7 +41,7 @@ env:
      - platformio update
 
  script:
-     - platformio ci
+     - platformio ci --lib="." --board=ID_1 --board=ID_2
 
 
 #
