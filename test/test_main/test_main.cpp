@@ -10,4 +10,4 @@
 // Main Program Tests
 
 UNITY_BEGIN();
-UNITY_END(); // stop unit testing
+UNITY_END();
