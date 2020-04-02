@@ -6,23 +6,8 @@
 
 // Setup
 
-//void setUp(void) {
-//
-//}
-//
-//void tearDown(void) {
-//
-//}
 
 // Main Program Tests
 
-// // Test that enviroment is sane
-
-void setup() {
-
-}
-
-void loop() {
-    UNITY_BEGIN();
-    UNITY_END(); // stop unit testing
-}
+UNITY_BEGIN();
+UNITY_END(); // stop unit testing
