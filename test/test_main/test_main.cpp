@@ -2,8 +2,6 @@
 // Runs all test cases
 // James Bolton (james@neojames.me)
 
-#ifdef UNIT_TEST
-
 #include <Arduino.h>
 #include <unity.h>
 
