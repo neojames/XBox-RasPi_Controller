@@ -35,16 +35,16 @@
      directories:
          - "~/.platformio"
 
- env:
-     - PLATFORMIO_CI_SRC=test/test_main
+# env:
+#     - PLATFORMIO_CI_SRC=test/*
 
  install:
      - pip install -U platformio
      - platformio update
 
  script:
-     - platformio ci --project-conf platformio.ini
-
+#     - platformio ci --project-conf platformio.ini
+      - pio test -e
 
 #
 # Template #2: The project is intended to be used as a library with examples.

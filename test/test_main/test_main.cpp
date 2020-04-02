@@ -2,18 +2,20 @@
 // Runs all test cases
 // James Bolton (james@neojames.me)
 
+#ifdef UNIT_TEST
+
 #include <Arduino.h>
-//#include <unity.h>
+#include <unity.h>
 
 // Setup
 
-void setUp(void) {
-
-}
-
-void tearDown(void) {
-
-}
+//void setUp(void) {
+//
+//}
+//
+//void tearDown(void) {
+//
+//}
 
 // Main Program Tests
 
