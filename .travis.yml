@@ -33,6 +33,9 @@
      directories:
          - "~/.platformio"
 
+env:
+     - PLATFORMIO_CI_SRC=test
+
  install:
      - pip install -U platformio
      - platformio update

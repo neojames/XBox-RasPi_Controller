@@ -4,7 +4,6 @@
 
 #include <Arduino.h>
 #include <unity.h>
-//Include additional tests
 
 // Setup
 
@@ -30,10 +29,8 @@ void setup() {
 
     UNITY_BEGIN();    // IMPORTANT LINE!
     RUN_TEST(test_led_builtin_pin_number);
-
-    pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
-
+    UNITY_END(); // stop unit testing
 }
