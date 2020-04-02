@@ -1,5 +1,8 @@
 # XBox-RasPi_Controller
+
 Rasberry Pi Controller Board based around the OG XBox.
+
+[![Build Status](https://travis-ci.com/neojames/XBox-RasPi_Controller.svg?branch=master)](https://travis-ci.com/neojames/XBox-RasPi_Controller)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 All code is licensed under the MIT Licence.
